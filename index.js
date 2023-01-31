@@ -44,6 +44,17 @@ const questions = [
         type: 'input',
         message: 'What are the contribution guidelines?',
         name: 'contribution',
+      },  
+      {
+        type: 'list',
+        message: 'Choose a license for the application',
+        choices: ['MIT License', 'GNU General Public License v3'],
+        name: 'license',
+      },      
+      {
+        type: 'input',
+        message: 'Any additional questions?',
+        name: 'questions',
       },
 ];
 
