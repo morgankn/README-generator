@@ -12,27 +12,27 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Where is the description of the project?',
+        message: 'Where is the description of the project? Provide the what, why and how.',
         name: 'description',
       },
       {
         type: 'input',
-        message: 'What is in the Table of contents?',
+        message: 'If applicable, provide a table of contents if your application is long',
         name: 'contents',
       },   
        {
         type: 'input',
-        message: 'What are the installation instructions?',
+        message: 'What are the steps required to install this application?',
         name: 'installation',
       },
       {
         type: 'input',
-        message: 'What is the usage for this project?',
+        message: 'Provide instructions and examples for use for this project in the usage section.',
         name: 'usage',
       },
       {
         type: 'input',
-        message: 'What are the contribution guidelines?',
+        message: 'If applicable, add any contributors or how to contribute in the future.',
         name: 'contribution',
       },
       {
@@ -47,13 +47,18 @@ const questions = [
       },  
       {
         type: 'list',
-        message: 'Choose a license for the application',
-        choices: ['MIT License', 'GNU General Public License v3'],
+        message: 'Choose a license for your application',
+        choices: ['MIT License', 'GPLv3', 'Apache License 2.0', ],
         name: 'license',
       },      
       {
         type: 'input',
-        message: 'Any additional questions?',
+        message: 'What is your github username?',
+        name: 'github',
+      },
+      {
+        type: 'input',
+        message: 'What is your email?',
         name: 'questions',
       },
 ];

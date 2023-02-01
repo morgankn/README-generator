@@ -1,17 +1,32 @@
-# <README Generator >
+# <d>
   ## Description
-  To create a README through the terminal 
+  d
+
   ## Table of Contents
-  N/A
+  -[(#installation)]
+  -[Usage](#usage)
+  -[Contribution](#contribution)
+  -[Tests](#tests)
+  -[Questions](#questions)
+  [d]
+// add links for Table of Contents
   ## Installation 
-  Open the Termial through the inddex.js 
+  d
+
   ## Usage 
-  To create a README through the terminal and have the information written onto the file each time 
+  d
+
   ## License 
   MIT License
-  ## Contributing 
-  To create a README through the terminal 
+
+  ## Contribution
+  d
+
   ## Tests 
-  open terminal
+  d
+
   ## Questions
-  
+  Any additional questions you can reach me at:
+
+  Email: morgakn7@gmail.com
+  Github:[@(morgankn)]
