@@ -15,7 +15,7 @@
 To install this application, inquirer and node must be installed on the local computer for the application to run properly. The repository that includes the code must be cloned onto the local computer to run the application in the terminal.
 
 ## Usage 
-Open the integrated terminal by right clicking on the index.js file and typing node index.js in the termnial. The user will be prompted to answer questions about their README. Once all the questions have been answered a README will be created using the users information.
+Open the integrated terminal by right clicking on the index.js file and typing node index.js in the terminal. The user will be prompted to answer questions about their README. Once all the questions have been answered a README will be created using the users information.
 
 ## Contribution
 N/A
