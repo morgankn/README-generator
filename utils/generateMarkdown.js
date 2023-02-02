@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   let licenseType = license;
   let yourLicense = '';
@@ -15,15 +14,6 @@ function renderLicenseBadge(license) {
   return yourLicense;
 };
 
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
- 
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
 if (license !== 'none') {
   return (`## License 
@@ -55,10 +45,10 @@ ${data.installation}
 ## Usage 
 ${data.usage}
 
-${renderLicenseSection(data.license)}
-
 ## Contribution
 ${data.contribution}
+
+${renderLicenseSection(data.license)}
 
 ## Tests 
 ${data.test}

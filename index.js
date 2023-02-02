@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-// const fs = require('fs/promises');
+const fs = require('fs/promises');
 const generateMarkdown = require('./utils/generateMarkdown');
 const { writeFile } = require('fs');
 // TODO: Create an array of questions for user input
@@ -31,21 +31,16 @@ const questions = [
         name: 'contribution',
       },
       {
-        type: 'input',
-        message: 'What are the test instructions?',
-        name: 'test',
-      },
-      {
-        type: 'input',
-        message: 'What are the contribution guidelines?',
-        name: 'contribution',
-      },  
-      {
         type: 'list',
         message: 'Choose a license for your application',
         choices: ['MIT License', 'GPLv3', 'Apache License 2.0', ],
         name: 'license',
-      },      
+      },   
+      {
+        type: 'input',
+        message: 'If there are tests ran on your application put the results here.',
+        name: 'test',
+      },   
       {
         type: 'input',
         message: 'What is your github username?',
@@ -63,7 +58,7 @@ function writeToFile(file, data) {
   const readMe = generateMarkdown(data)
 writeFile(file,readMe,(err) => {
 if(err)throw err;
-console.log('writeFile');
+// console.log('writeFile');
 })
 
 }
@@ -73,7 +68,7 @@ function init() {
   inquirer.prompt(questions)
   .then(data =>{
     writeToFile('README.md',data)
-    // console.log('Creating README')
+    console.log('Creating README')
   })
   ;
 }
