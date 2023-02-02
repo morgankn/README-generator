@@ -57,6 +57,7 @@ ${data.test}
 Any additional questions regarding this application you can reach me at:
 
 Email: ${data.questions}
+
 Github:[${data.github}](https://github.com/${data.github})`
 }
 // add links for github 
